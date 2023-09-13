@@ -2,6 +2,10 @@
 
 ![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)
 
+live page 
+
+https://mohammed-alhady.github.io/notifications-page/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
