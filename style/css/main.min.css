@@ -1,0 +1,179 @@
+.notifications-holder {
+  border-radius: 0.5rem;
+  padding: 1.5rem 1rem;
+  background-color: hsl(0, 0%, 100%);
+  margin: 1rem 2rem;
+  max-width: 700px;
+  -webkit-box-shadow: 0 0 1rem hsl(219, 14%, 63%);
+          box-shadow: 0 0 1rem hsl(219, 14%, 63%);
+}
+.notifications-holder .notifications-head {
+  margin-bottom: 1rem;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.notifications-holder .notifications-head .main-title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.notifications-holder .notifications-head .counter {
+  display: block;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 0.5rem;
+  padding: 0.025rem 0.4rem;
+  background-color: hsl(219, 85%, 26%);
+  border-radius: 0.25rem;
+  color: hsl(0, 0%, 100%);
+}
+.notifications-holder .notifications-head .read-all {
+  font-size: 0.75rem;
+  color: hsl(219, 12%, 42%);
+  font-weight: 500;
+  cursor: pointer;
+}
+.notifications-holder .notifications-body .notificate {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.notifications-holder .notifications-body .notificate:not(:last-child) {
+  margin-bottom: 0.25rem;
+}
+.notifications-holder .notifications-body .notificate.unread {
+  background-color: hsl(210, 60%, 98%);
+}
+.notifications-holder .notifications-body .notificate.unread .txt .unread-ball {
+  position: relative;
+}
+.notifications-holder .notifications-body .notificate.unread .txt .unread-ball::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  right: -10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: hsl(1, 90%, 64%);
+  z-index: 999;
+}
+.notifications-holder .notifications-body .notificate .notificate-holder .img-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.notifications-holder .notifications-body .notificate .notificate-holder .img-holder .user-img {
+  width: 35px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.notifications-holder .notifications-body .notificate .notificate-holder .txt-holder {
+  padding: 0.5rem;
+}
+.notifications-holder .notifications-body .notificate .notificate-holder .txt-holder .txt {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.notifications-holder .notifications-body .notificate .notificate-holder .txt-holder .txt h3,
+.notifications-holder .notifications-body .notificate .notificate-holder .txt-holder .txt p {
+  margin: 0 0.5rem 0 0;
+  font-size: 0.75rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.notifications-holder .notifications-body .notificate .notificate-holder .txt-holder .user-name,
+.notifications-holder .notifications-body .notificate .notificate-holder .txt-holder .notificatetion-sourse,
+.notifications-holder .notifications-body .notificate .notificate-holder .txt-holder .notificatetion-group {
+  font-weight: 900;
+  cursor: pointer;
+}
+.notifications-holder .notifications-body .notificate .notificate-holder .txt-holder .user-name:hover,
+.notifications-holder .notifications-body .notificate .notificate-holder .txt-holder .notificatetion-sourse:hover,
+.notifications-holder .notifications-body .notificate .notificate-holder .txt-holder .notificatetion-group:hover {
+  color: hsl(219, 85%, 26%);
+}
+.notifications-holder .notifications-body .notificate .notificate-holder .txt-holder .notificatetion-group {
+  color: hsl(219, 85%, 26%);
+}
+.notifications-holder .notifications-body .notificate .notificate-holder .date {
+  font-size: 0.75rem;
+  color: hsl(219, 12%, 42%);
+}
+.notifications-holder .notifications-body .notificate .notificate-holder .notification-img-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+}
+.notifications-holder .notifications-body .notificate .notificate-holder .notification-img-holder .notification-img {
+  width: 35px;
+  cursor: pointer;
+}
+.notifications-holder .notifications-body .notificate .message-holder {
+  border: 1px solid hsl(205, 33%, 90%);
+  cursor: pointer;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin-left: calc(35px + 1rem);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.notifications-holder .notifications-body .notificate .message-holder:hover {
+  background-color: hsl(205, 33%, 90%);
+}
+.notifications-holder .notifications-body .notificate .message-holder .message-content {
+  margin: 0;
+  color: hsl(219, 12%, 42%);
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/assets/fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
+}
+* {
+  font-family: "Plus Jakarta Sans";
+}
+
+body {
+  background-color: hsl(210, 60%, 98%);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}/*# sourceMappingURL=main.min.css.map */

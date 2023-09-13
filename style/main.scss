@@ -1,0 +1,29 @@
+@use "./scss/layout" as *;
+@use "./scss/vars" as *;
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url("/assets/fonts/PlusJakartaSans-VariableFont_wght.ttf") format('truetype');
+}
+
+* {
+    font-family: 'Plus Jakarta Sans';
+}
+
+body {
+    background-color: $very-light-grayish-blue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

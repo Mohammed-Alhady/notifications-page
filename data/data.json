@@ -1,0 +1,92 @@
+[{
+        "user-img": "/assets/images/avatar-mark-webber.webp",
+        "txt": {
+            "user-name": "Mark Webber",
+            "notifcatetion-title": "reacted to your recent post",
+            "notificatetion-sourse": "My first tournament today!",
+            "notificatetion-group": null
+        },
+        "date": "1m ago",
+        "notification-img": null,
+        "message-content": null,
+        "status": "unread"
+    },
+    {
+        "user-img": "/assets/images/avatar-angela-gray.webp",
+        "txt": {
+            "user-name": "Angela Gray",
+            "notifcatetion-title": "followed you",
+            "notificatetion-sourse": null,
+            "notificatetion-group": null
+        },
+        "date": "5m ago",
+        "notification-img": null,
+        "message-content": null,
+        "status": "unread"
+    },
+    {
+        "user-img": "/assets/images/avatar-jacob-thompson.webp",
+        "txt": {
+            "user-name": "Jacob Thompson",
+            "notifcatetion-title": "has joined your group",
+            "notificatetion-sourse": null,
+            "notificatetion-group": "Chess Club"
+        },
+        "date": "1day ago",
+        "notification-img": null,
+        "message-content": null,
+        "status": "unread"
+    },
+    {
+        "user-img": "/assets/images/avatar-rizky-hasanuddin.webp",
+        "txt": {
+            "user-name": "Rizky Hasanuddin",
+            "notifcatetion-title": "sent you a private message",
+            "notificatetion-sourse": null,
+            "notificatetion-group": null
+        },
+        "date": "5 days ago",
+        "notification-img": null,
+        "message-content": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I 'm already having lots of fun and improving my game.",
+        "status": "read"
+    },
+    {
+        "user-img": "/assets/images/avatar-kimberly-smith.webp",
+        "txt": {
+            "user-name": "Kimberly Smith",
+            "notifcatetion-title": "commented on your picture",
+            "notificatetion-sourse": null,
+            "notificatetion-group": null
+        },
+        "date": "1 week ago",
+        "notification-img": "/assets/images/image-chess.webp",
+        "message-content": null,
+        "status": "read"
+    },
+    {
+        "user-img": "/assets/images/avatar-nathan-peterson.webp",
+        "txt": {
+            "user-name": "Nathan Peterson",
+            "notifcatetion-title": "reacted to your recent post",
+            "notificatetion-sourse": "5 end-game strategies to increase your win rate",
+            "notificatetion-group": null
+        },
+        "date": "2 weeks ago",
+        "notification-img": null,
+        "message-content": null,
+        "status": "read"
+    },
+    {
+        "user-img": "/assets/images/avatar-anna-kim.webp",
+        "txt": {
+            "user-name": "Anna Kim",
+            "notifcatetion-title": "left the group",
+            "notificatetion-sourse": null,
+            "notificatetion-group": "Chess Club"
+        },
+        "date": "2 weeks ago",
+        "notification-img": null,
+        "message-content": null,
+        "status": "read"
+    }
+]
