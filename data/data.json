@@ -1,5 +1,5 @@
 [{
-        "user-img": "/assets/images/avatar-mark-webber.webp",
+        "user-img": "../assets/images/avatar-mark-webber.webp",
         "txt": {
             "user-name": "Mark Webber",
             "notifcatetion-title": "reacted to your recent post",
