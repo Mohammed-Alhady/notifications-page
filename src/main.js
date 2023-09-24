@@ -1,15 +1,3 @@
-// fetch("/data/data.json")
-//     .then((data) => {
-//         const dataUsers = data.json();
-//         return dataUsers;
-//     })
-//     .then((data) => {
-//         data.forEach(element => {
-//             createNotification(element);
-//         });
-//         counterUnreadingMessages();
-//     })
-
 setTimeout(() => {
     import ("../data/data.json", { assert: { type: "json" } })
     .then((result) => {
