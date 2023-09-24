@@ -1,14 +1,28 @@
-fetch("/data/data.json")
-    .then((data) => {
-        const dataUsers = data.json();
-        return dataUsers;
-    })
-    .then((data) => {
-        data.forEach(element => {
-            createNotification(element);
-        });
-        counterUnreadingMessages();
-    })
+// fetch("/data/data.json")
+//     .then((data) => {
+//         const dataUsers = data.json();
+//         return dataUsers;
+//     })
+//     .then((data) => {
+//         data.forEach(element => {
+//             createNotification(element);
+//         });
+//         counterUnreadingMessages();
+//     })
+
+setTimeout(() => {
+    const data =
+        import ("../data/data.json", { assert: { type: "json" } })
+        .then((result) => {
+            return result.default
+        })
+        .then((array) => {
+            array.map((item) => {
+                createNotification(item);
+            })
+            counterUnreadingMessages();
+        })
+}, 500)
 
 function createNotification(element) {
     // structure of the notificaiton section 
