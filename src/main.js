@@ -11,9 +11,8 @@
 //     })
 
 setTimeout(() => {
-    const data =
-        import ("../data/data.json", { assert: { type: "json" } })
-        .then((result) => {
+    import ("../data/data.json", { assert: { type: "json" } })
+    .then((result) => {
             return result.default
         })
         .then((array) => {
